@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Teaser...</title>
+    <meta charset="utf-8">
+<title>Make the Cursor a Hand Pointer using CSS</title>
+<style>
+    img{
+        cursor: pointer;
+    }
+</style>
+</head>
+    <body>
+
+        <audio id="audio" src="theme.mp3"></audio>
+        <img id="img" src="rpg1.png" width=550 height=550 class="shake-slow shake-    
+        constant">
+        <script>
+
+
+
+        document.getElementById("img").addEventListener("click", function(){
+            document.getElementById("audio").play();
+            
+        });
+        </script>
+    </body>
+</html>
